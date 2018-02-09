@@ -24,8 +24,8 @@ _____________________________________
 
 Execrises.py:
 -------------
-fibonacci with decorator memoization
-fibonacci using generator
-metaclass that converts all instancess functions to lowercase
-context manager for file opening as class
-context manager for file opening as decorator
+Fibonacci with decorator memoization.
+Fibonacci using generator.
+Metaclass that converts all instancess functions to lowercase.
+Context manager for file opening as class.
+Context manager for file opening as decorator.
