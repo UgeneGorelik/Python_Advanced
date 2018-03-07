@@ -17,6 +17,10 @@ _____________________________________
 Yield_GeneratorStudy.py:
 Example Usage of Generators and Yield Keyword (Yield keyword for sequencing)  
 
+_____________________________________
+
+descriptors.py
+Example Usage of Descriptors
 
 
 
