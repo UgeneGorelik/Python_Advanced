@@ -49,3 +49,25 @@ class Derived(Base):
 # dis(_)
 
 d1=Derived()
+
+
+
+#another metaclass examplethat checks if a class inherits from more than 1 class if so it throws error
+class mytype(type):
+    def __new__(cls, clsname, bases,clsdict):
+        if(len(bases)>1):
+            raise  TypeError("No")
+        return super().__new__(cls, clsname, bases,clsdict)
+
+
+class Base(metaclass=mytype):
+    pass
+
+class A(Base):
+    pass
+
+class B(Base):
+    pass
+
+class C(A,B):
+    pass
